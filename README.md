@@ -1,2 +1,2 @@
 # VEK
-Der Volkseigene Konvertierer für Audiodateie
+Der Volkseigene Konvertierer für Audiodateien
