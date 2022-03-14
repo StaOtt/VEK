@@ -1,0 +1,8 @@
+# Visual Studio
+.vs/
+*.csproj.user
+*.sln
+
+# Dotnet build
+bin/
+obj/
