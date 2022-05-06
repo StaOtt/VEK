@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:VEK"
         mc:Ignorable="d"
         Title="VEK" Height="365" Width="635"
-        Background="#FF292B2F" WindowStyle="None" ResizeMode="NoResize">
+        Background="#FF292B2F" WindowStyle="None" ResizeMode="CanMinimize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="24" />
@@ -22,8 +22,9 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="48" />
                 <ColumnDefinition Width="48" />
-                <ColumnDefinition Width="48" />
             </Grid.ColumnDefinitions>
+            <Button Name="minimizeBtn" Grid.Column="2">←</Button>
+            <Button Name="closedBtn" Grid.Column="4">❌</Button>
         </Grid>
         <!-- END Custom Window Title Bar -->
     </Grid>
