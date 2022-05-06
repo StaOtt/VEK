@@ -7,4 +7,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Xabe.FFmpeg" Version="5.1.0" />
+  </ItemGroup>
+
 </Project>

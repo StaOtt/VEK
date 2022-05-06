@@ -5,8 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VEK"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="VEK" Height="365" Width="635"
+        Background="#FF292B2F" WindowStyle="None" ResizeMode="NoResize">
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <!-- BEGIN Custom Window Title Bar -->
+        <Grid Grid.Row="0" Background="#FF242426">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="24" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="48" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="48" />
+                <ColumnDefinition Width="48" />
+                <ColumnDefinition Width="48" />
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <!-- END Custom Window Title Bar -->
     </Grid>
 </Window>
